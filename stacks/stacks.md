@@ -30,6 +30,7 @@ Popping a stack that is empty can be a problem, along with adding an item to a s
 # Diagrams
 
 As you can see in the images below, the top item always comes out first. If you wanted to break the LIFO rule, you would need to use a different data structure.
+
 ![Stack push and pop(https://i.stack.imgur.com/jLlQz.png)](stack.png)
 
 ![additional stack example(https://i.stack.imgur.com/bOga5.png)](stack2.png)
