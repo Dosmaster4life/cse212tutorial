@@ -1,6 +1,6 @@
 # Table of Contents
 -[Introduction](#Introduction)
--[Stack Diagrams](#Diagrams)
+-[Diagrams](#Diagrams)
 -[Stack Example Problem](#Example)
 -[Stack Problem](#Problem)
 
