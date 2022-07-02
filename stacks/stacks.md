@@ -12,7 +12,7 @@ A stack is used whenever the developer wants to always remove the top item first
 ![Code example](stackIntro.py)
 
 ## Stack Performance
-The time complexty of a stack is O(1) since no loops are used in the following
+The time complexty of a stack is O(1) since no loops are used.
 **push
 **pop
 **peek
@@ -29,9 +29,10 @@ Popping a stack that is empty can be a problem, along with adding an item to a s
 
 # Diagrams
 
-![Stack push and pop](stack.png)
+As you can see in the images below, the top item always comes out first. If you wanted to break the LIFO rule, you would need to use a different data structure.
+![Stack push and pop(https://i.stack.imgur.com/jLlQz.png)](stack.png)
 
-![additional stack example](stack2.png)
+![additional stack example(https://i.stack.imgur.com/bOga5.png)](stack2.png)
 
 # Stack Example Problem
 
