@@ -8,7 +8,8 @@ A Stack is a data structure that is Last In First Out. This means whatever is on
 
 ## Purpose of a Stack
 
-A stack is used whenever the developer wants to always remove the top item first. A stack is common whenever navigating an app or a browser, whenever the back button is pressed the stack pops the current site or page and shows the previous one.
+A stack is used whenever the developer wants to always remove the top item first. A stack is common whenever navigating an app or a browser, whenever the back button is pressed the stack pops the current site or page and shows the previous one. Review the code below for an example.
+![Code example](stackIntro.py)
 
 ## Stack Performance
 The time complexty of a stack is O(1) since no loops are used in the following
