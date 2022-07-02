@@ -27,3 +27,7 @@ Popping a stack that is empty can be a problem, along with adding an item to a s
 
 
 # Diagrams
+
+![Stack push and pop](stack.png)
+
+![additional stack example](stack2.png)
