@@ -34,3 +34,9 @@ Popping a stack that is empty can be a problem, along with adding an item to a s
 ![additional stack example](stack2.png)
 
 # Stack Example Problem
+
+
+
+# Stack Problem 
+John needs a program that reverses whatever he sends it, show him a prototype program that reverses
+any string he inputs.
