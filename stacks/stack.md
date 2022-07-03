@@ -2,7 +2,7 @@
 - [Introduction](#Introduction)
 - [Diagrams](#Diagrams)
 - [Stack Example Problem](#Stack-Example-Problem)
-- [Stack Problem](#Stack-Problem)
+- [Stack Problem](#Stack-Problem-for-you-to-solve)
 
 ## What is a Stack
 A Stack is a data structure that is Last In First Out. This means whatever is on top of the stack will be the first item removed when pop() is used. 
@@ -42,6 +42,6 @@ As you can see in the images below, the top item always comes out first. If you 
 Jospeh found a stack of his dads documents, and would like to prank him so he can't go on his business trip. Create a program that reverses the stack of documents so his dad can't make his flight. ![Code Solution](stackExample.py)
 
 
-# Stack Problem 
+# Stack Problem for you to solve
 John needs a program that reverses input for his company. Develop a prototype program that reverses
 any string that is passed into your program, along with the original string. Use the [Stack.py](Stack.py) file and implement your solution.
