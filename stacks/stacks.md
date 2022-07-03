@@ -13,10 +13,10 @@ A stack is used whenever the developer wants to always remove the top item first
 
 ## Stack Performance
 The time complexty of a stack is O(1) since no loops are used.
-- *push("value to put on top")
-- *pop() # removes the top element
-- *peek() # returns the top element
-- *isEmpty() # returns true or false
+- push("value to put on top")
+- pop() # removes the top element
+- peek() # returns the top element
+- isEmpty() # returns true or false
 
 ## Problems that can be solved with a Stack
 Any problem that uses the Last In First Out principle can be solved using a stack. An example could be a bookstack that requires the first book on top to be removed before the book below it is removed.
