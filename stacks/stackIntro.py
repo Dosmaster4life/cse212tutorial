@@ -1,4 +1,4 @@
-import Stack
+from Stack import Stack
     
 stack = Stack()
 stack.push('a') # add item to stack, also known as push

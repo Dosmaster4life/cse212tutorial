@@ -37,8 +37,9 @@ As you can see in the images below, the top item always comes out first. If you 
 
 # Stack Example Problem
 
+Jospeh found a stack of his dads documents, and would like to prank him so he can't go on his business trip. Create a program that reverses the stack of documents so his dad can't make his flight. ![Code Solution](stackExample.py)
 
 
 # Stack Problem 
 John needs a program that reverses input for his company. Develop a prototype program that reverses
-any string that is passed into your program. Use the [Stack.py](Stack.py) file and implement your solution.
+any string that is passed into your program, along with the original string. Use the [Stack.py](Stack.py) file and implement your solution.

@@ -1,22 +1,41 @@
-class Stack:
-   def __init__(self):
-      self.stack = [] #create the stack(this is a list)
+from Stack import Stack
 
-   def push(self, value):
-      self.stack.append(value) # add an item to the stack
-        
+stackofDocuments = Stack()
 
-   def pop(self):
-      if len(self.stack) > 0:
-         return self.stack.pop() # Use remove the top item from the stack
-      else:
-        return "stack is empty."
-    
-   def peek(self): # view the top item of the stack
-    if len(self.stack) > 0:
-      print(self.stack[len(self.stack) - 1])
+stackofDocuments.push("Important document number 1")
 
-   def printStack(self): # print all items in the stack
-      for stackItem in reversed(self.stack):
-        print(stackItem)
+stackofDocuments.push("Important document number 2")
 
+stackofDocuments.push("Important document number 3")
+
+stackofDocuments.push("Important document number 4")
+
+stackofDocuments.push("Important document number 5")
+
+
+def putAtBotton(stackOfDocs, document):
+   if stackOfDocs.isEmpty():
+         stackOfDocs.push(document) # Put first item in stack
+   else:
+      documentPopped = stackOfDocs.pop() # pop the original and store it
+      putAtBotton(stackOfDocs,document) # Recursivly go through each document
+      stackOfDocs.push(documentPopped) # Put the next item in the stack
+
+
+def reverseStack(stackofDocs): 
+   if stackofDocs.isEmpty():
+      return
+   else:
+      documentPopped = stackofDocs.pop()  # pop the original and store it it
+      reverseStack(stackofDocs) # Recursivly go through each item in the stack
+      putAtBotton(stackofDocs,documentPopped) # put the items in reverse order through this
+      
+
+print("---Original Stack---")
+stackofDocuments.printStack() # original stack
+reverseStack(stackofDocuments) 
+print("---Reversed Stack---")
+stackofDocuments.printStack() # reversed stack
+
+
+   
