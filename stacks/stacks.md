@@ -4,6 +4,7 @@
 - [Stack Example Problem](#Stack-Example-Problem)
 - [Stack Problem](#Stack-Problem)
 
+## What is a Stack
 A Stack is a data structure that is Last In First Out. This means whatever is on top of the stack will be the first item removed when pop() is used. 
 
 ## Purpose of a Stack
