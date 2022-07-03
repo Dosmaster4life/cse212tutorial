@@ -5,7 +5,7 @@
 - [Stack Problem for you to solve](#Stack-Problem-for-you-to-solve)
 
 ## What is a Stack
-A Stack is a data structure that is Last In First Out. This means whatever is on top of the stack will be the first item removed when pop() is used. 
+A Stack is a data structure that is Last In First Out. This means whatever is on top of the stack will be the first item removed when pop() is used. ![Code example of a stack](Stack.py)
 
 ## Purpose of a Stack
 
