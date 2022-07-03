@@ -40,5 +40,5 @@ As you can see in the images below, the top item always comes out first. If you 
 
 
 # Stack Problem 
-John needs a program that reverses whatever he types for his company. Develop a prototype program that reverses
+John needs a program that reverses input for his company. Develop a prototype program that reverses
 any string that is passed into your program. Use the [Stack.py](Stack.py) file and implement your solution.
