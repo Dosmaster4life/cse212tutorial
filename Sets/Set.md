@@ -31,7 +31,7 @@ A common problem some people face when using sets, is not understanding the rule
 
 
 ## Diagrams
-# Sets example with Union and Intersection symbols. 
+# Sets visual for methods used in python
 ![https://i.stack.imgur.com/uH6cL.png)](sets.png)
 
 # Sets example with Union and Intersection symbols. 
