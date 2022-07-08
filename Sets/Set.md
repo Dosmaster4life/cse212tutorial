@@ -32,7 +32,6 @@ A common problem some people face when using sets, is not understanding the rule
 
 # Diagrams
 
-Different Set 
 ![https://i.stack.imgur.com/uH6cL.png)](sets.png)
 
 Sets example with Union and Intersection symbols. These symbols are commonly used and are good to know.
