@@ -15,12 +15,12 @@ in functions that can be used with sets.
 
 ## Set Performance
 
-.add(value) => O(1)
-.remove(value) => O(1)
-.union O(1)
-.intersection O(1)
-.difference O(n)
-accessing a set element O(n)
+- .add(value) => O(1)
+- .remove(value) => O(1)
+- .union O(1)
+- .intersection O(1)
+- .difference O(n)
+- accessing a set element O(n)
 
 ## Problems that can be solved with a Set
 
