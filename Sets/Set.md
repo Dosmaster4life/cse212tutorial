@@ -25,17 +25,18 @@ in functions that can be used with sets.
 ## Problems that can be solved with a Set
 Sets can be used to solve problems that only need unique values. Sets are also useful when speed is essential in solving problems that list are too slow for.
 
-## How Sets are used in Python
-
 
 ## Common errors in Sets
-
+A common problem some people face when using sets, is not understanding the rules. Before you decide to use the set data type, make sure that you understand them clearly and that sets do not allow duplicate items.
 
 
 # Diagrams
 
 Different Set 
 ![https://i.stack.imgur.com/uH6cL.png)](sets.png)
+
+Sets example with Union and Intersection symbols. These symbols are commonly used and are good to know.
+![https://iiif.elifesciences.org/lax/50732/elife-50732-resp-fig6-v2.tif/full/617,/0/default.jpg)](sets2.jpg)
 
 
 
