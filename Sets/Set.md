@@ -23,7 +23,7 @@ in functions that can be used with sets.
 - accessing a set element O(n)
 
 ## Problems that can be solved with a Set
-
+Sets can be used to solve problems that only need unique values. Sets are also useful when speed is essential in solving problems that list are too slow for.
 
 ## How Sets are used in Python
 
@@ -41,5 +41,15 @@ in functions that can be used with sets.
 
 # Set Example Problem
 
+John has a lot of friends, but he struggles to see what is unique about himself. Create a program with sets that will build Johns self esteem by telling him all of the unique traits he has.
 
 # Set Problem for you to solve
+
+Greg has encountered a bully named Todd. Todd wants Greg to tell him blackmail material about a friend. Help Greg make a good decision and keep quiet by using sets to show all of the traits Greg has that Todd doesn't.
+ ```python
+
+Greg_Traits = {'Nice', 'Loyal', 'Friendly', 'Cool', 19, 'smart'}
+Todd_Traits = {'Manipulative', 'Evil', 19, 'cunning'}
+
+
+ '''
