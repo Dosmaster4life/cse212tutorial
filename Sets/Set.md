@@ -50,6 +50,4 @@ Greg has encountered a bully named Todd. Todd wants Greg to tell him blackmail m
 
 Greg_Traits = {'Nice', 'Loyal', 'Friendly', 'Cool', 19, 'smart'}
 Todd_Traits = {'Manipulative', 'Evil', 19, 'cunning'}
-
-
- '''
+```
