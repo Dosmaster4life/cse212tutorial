@@ -51,7 +51,7 @@ Friend2_Traits = {'Low Self Esteem', 'Friendly', 'Loving', 21, 'Thrifty', "Clean
 ```
 [Solution](SetExampleProblem.py)
 
-#Problem 2
+# Problem 2
 John has friends that want to see what traits they have in common with them. Create a program with sets that shows his friends what they have in common with John.s
 
  ```python
