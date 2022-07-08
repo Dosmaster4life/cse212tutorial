@@ -30,11 +30,11 @@ Sets can be used to solve problems that only need unique values. Sets are also u
 A common problem some people face when using sets, is not understanding the rules. Before you decide to use the set data type, make sure that you understand them clearly and that sets do not allow duplicate items.
 
 
-# Diagrams
-
+## Diagrams
+# Sets example with Union and Intersection symbols. 
 ![https://i.stack.imgur.com/uH6cL.png)](sets.png)
 
-Sets example with Union and Intersection symbols. These symbols are commonly used and are good to know.
+# Sets example with Union and Intersection symbols. 
 ![https://iiif.elifesciences.org/lax/50732/elife-50732-resp-fig6-v2.tif/full/617,/0/default.jpg)](sets2.jpg)
 
 
