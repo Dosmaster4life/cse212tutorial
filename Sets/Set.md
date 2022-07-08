@@ -43,6 +43,13 @@ Sets can be used to solve problems that only need unique values. Sets are also u
 
 John has a lot of friends, but he struggles to see what is unique about himself. Create a program with sets that will build Johns self esteem by telling him all of the unique traits he has.
 
+ ```python
+John_Traits = {'Low Self Esteem', 'Loyal', 'Friendly', 'Loving', 21, 'Thrifty', "Clean", "Giving", "Thoughtful"}
+Friend1_Traits = {'High Self Esteem', 'Angry', 'Cunning', 'Awesome', 21, 'Thrifty', "Cool"}
+Friend2_Traits = {'Low Self Esteem', 'Friendly', 'Loving', 21, 'Thrifty', "Clean"}
+
+```
+[Solution](SetExampleProblem.py)
 # Set Problem for you to solve
 
 Greg has encountered a bully named Todd. Todd wants Greg to tell him blackmail material about a friend. Help Greg make a good decision and keep quiet by using sets to show all of the traits Greg has that Todd doesn't.
