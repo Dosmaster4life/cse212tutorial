@@ -1,4 +1,4 @@
-class BST:
+class binarySearchTree:
     class Node:
 
         def __init__(self, data):
@@ -12,20 +12,20 @@ class BST:
 
     def insert(self, data):
         if self.root is None:
-            self.root = BST.Node(data)
+            self.root = binarySearchTree.Node(data)
         else:
             self._insert(data, self.root)  
 
     def _insert(self, data, node):
         if data < node.data:
             if node.left is None:
-                node.left = BST.Node(data)
+                node.left = binarySearchTree.Node(data)
             else:
                 self._insert(data, node.left)
         elif data > node.data:
 
             if node.right is None:
-                node.right = BST.Node(data)
+                node.right = binarySearchTree.Node(data)
             else:
 
                 self._insert(data, node.right)
@@ -84,20 +84,15 @@ class BST:
             return max(self._get_height(node.left),self._get_height(node.right)) + 1
 
 
-def create_bst_from_sorted_list(sorted_list):
-    bst = BST()  
-    _insert_middle(sorted_list, 0, len(sorted_list)-1, bst)
-    return bst
-
-def _insert_middle(sorted_list, first, last, bst):
+def _insert_middle(sorted_list, first, last, binarySearchTree):
 
     if sorted_list :
         middleOfList = (first + last)//2
-        bst.insert(sorted_list[middleOfList])
+        binarySearchTree.insert(sorted_list[middleOfList])
         firstList = sorted_list[:middleOfList]
         secondList = sorted_list[1+ middleOfList:]
 
-        _insert_middle(firstList, 0, len(firstList)-1, bst)
-        _insert_middle(secondList, 0, len(secondList)-1, bst)
+        _insert_middle(firstList, 0, len(firstList)-1, binarySearchTree)
+        _insert_middle(secondList, 0, len(secondList)-1, binarySearchTree)
     return
 
