@@ -48,7 +48,10 @@ Leaf Nodes: 0,2,5,8,10,14(Nodes without Children)
 
 ![Binary Search Tree Example](Tree.jpg)
 
+### Binary Tree Common Search methods
+
 ![Breadth First Search and Depth First Search(https://i.imgur.com/bfitrJw.png)](tree2.png)
+
 
 # Binary Tree Example Problem
 
