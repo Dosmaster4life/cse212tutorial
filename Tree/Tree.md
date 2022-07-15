@@ -30,6 +30,7 @@ A Binary Tree is a collections of nodes where each parent node has zero, one, or
 
 # Diagrams
 
+## Basic Binary Search tree
 Root Node: 7
 
 Parent-child node relationships: 
