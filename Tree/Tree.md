@@ -33,16 +33,16 @@ A Binary Tree is a collections of nodes where each parent node has zero, one, or
 Root Node: 7
 
 Parent-child node relationships: 
-7 has children 3 and 12
-3 has children of 1 and 6
-1 has children of 0 and 2
-6 has 4 as a child
-4 has 5 as a child
-12 has children 9 and 13
-9 has children 8 and 11
-11 has 10 as a child
-13 has 15 as as a child
-15 has 14 as a child
+- 7 has children 3 and 12
+- 3 has children of 1 and 6
+- 1 has children of 0 and 2
+- 6 has 4 as a child
+- 4 has 5 as a child
+- 12 has children 9 and 13
+- 9 has children 8 and 11
+- 11 has 10 as a child
+- 13 has 15 as as a child
+- 15 has 14 as a child
 
 Leaf Nodes: 0,2,5,8,10,14(Nodes without Children)
 
