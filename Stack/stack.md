@@ -38,10 +38,9 @@ As you can see in the images below, the top item always comes out first. If you 
 ![additional stack example(https://i.stack.imgur.com/bOga5.png)](stack2.png)
 
 # Stack Example Problem
-
-Jospeh found a stack of his dads documents, and would like to prank him so he can't go on his business trip. Create a program that reverses the stack of documents so his dad can't make his flight. ![Code Solution](stackExample.py)
+John needs a program that sorts document numbers for his company. Develop a program that sorts the documents numbers and puts the documents back into the stack in descending order.
+ Use the [Stack.py](Stack.py) file and implement your solution. ![Code Solution](stackProblem.py)
 
 
 # Stack Problem for you to solve
-John needs a program that reverses input for his company. Develop a prototype program that reverses
-any string that is passed into your program, along with the original string. Use the [Stack.py](Stack.py) file and implement your solution.
+Joseph found a stack of his dads documents, and would like to prank him so he can't go on his business trip. Create a program that reverses the stack of documents so his dad can't make his flight.Don't look at the answer key until you finish the problem.  ![Code Solution](stackExample.py)

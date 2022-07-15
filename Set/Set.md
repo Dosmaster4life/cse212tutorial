@@ -3,7 +3,7 @@
 - [Diagrams](#Diagrams)
 - [Set Example Problem](#Set-Example-Problem)
 - [Set Problem for you to solve](#Set-Problem-for-you-to-solve)
-
+- [Bonus problem without solution](#Bonus-problem-without-solution)
 ## What is a Set
 A set is a data structure that allows you to save multiple items as a variable. A set has items that are unordered, without duplicates, and immutable. Sets allow you to add or remove items, but you are unable to change items. Sets can contain items of different types as well.
 
@@ -51,8 +51,8 @@ Friend2_Traits = {'Low Self Esteem', 'Friendly', 'Loving', 21, 'Thrifty', "Clean
 ```
 [Solution](SetExampleProblem.py)
 
-# Problem 2
-John has friends that want to see what traits they have in common with them. Create a program with sets that shows his friends what they have in common with John.s
+# Set Problem for you to solve
+John has friends that want to see what traits they have in common with them. Create a program with sets that shows his friends what they have in common with John.
 
  ```python
 John_Traits = {'Low Self Esteem', 'Loyal', 'Friendly', 'Loving', 21, 'Thrifty', "Clean", "Giving", "Thoughtful"}
@@ -61,11 +61,13 @@ Friend2_Traits = {'Low Self Esteem', 'Friendly', 'Loving', 21, 'Thrifty', "Clean
 
 ```
 [Solution](SetExampleProblem2.py)
-# Set Problem for you to solve
 
+
+# Bonus problem without solution
 Greg has encountered a bully named Todd. Todd wants Greg to tell him blackmail material about a friend. Help Greg make a good decision and keep quiet by using sets to show all of the traits Greg has that Todd doesn't.
  ```python
 
 Greg_Traits = {'Nice', 'Loyal', 'Friendly', 'Cool', 19, 'smart'}
 Todd_Traits = {'Manipulative', 'Evil', 19, 'cunning'}
+ # Output should be {'Nice', 'Loyal', 'Friendly', 'Cool', 'smart'}.
 ```
