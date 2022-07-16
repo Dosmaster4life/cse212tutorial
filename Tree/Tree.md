@@ -64,6 +64,41 @@ Jeff needs to compare simple binary trees that his company has given him. Create
 
 
 # Binary Tree Problem for you to solve
-Joe needs to look at two trees and see if that have matching values, but doesn't care if the trees have different structures. Create a function that checks if 2 trees have the same values. Don't look at the solution until you finish, but use the following code as your tree and then use the test cases when you are done.
+Joe needs to look at two trees and see if that have matching values, but doesn't care if the trees have different structures. Create a function that checks if 2 trees have the same values(ignore duplicates, both trees are only allowed to have the same values). Don't look at the solution until you finish, but use the following code as your tree and then use the test cases when you are done.
 
+ ```python
+
+class TreeNode:
+   def __init__(self, rootValue):
+       self.currentNode = rootValue
+       self.leftNode = None
+       self.rightNode = None
+tree1 = TreeNode(50)
+tree1.leftNode = TreeNode(25)
+tree1.rightNode = TreeNode(150)
+tree1.rightNode.rightNode = TreeNode(275)
+tree1.rightNode.rightNode.rightNode = TreeNode(300)
+
+
+tree2 = TreeNode(25)
+tree2.leftNode = TreeNode(50)
+tree2.rightNode = TreeNode(150)
+tree2.rightNode.rightNode = TreeNode(275)
+tree2.rightNode.rightNode.rightNode = TreeNode(300)
+
+tree3 = TreeNode(100)
+tree3.leftNode = TreeNode(150)
+tree3.rightNode = TreeNode(50)
+tree3.rightNode.rightNode = TreeNode(200)
+tree3.rightNode.rightNode = TreeNode(250)
+
+## Do not edit code above, start coding here
+
+def checkEqualTreeValues(treeNumber1,treeNumber2,list1 = [],list2 = []):
+  pass
+
+## Test cases below, do not edit
+print(checkEqualTreeValues(tree1,tree2)) # Should return true, same tree order and values
+print(checkEqualTreeValues(tree2,tree3)) # Should return false, same tree values but different order
+```
 ![Code Solution](TreeProblem.py)
