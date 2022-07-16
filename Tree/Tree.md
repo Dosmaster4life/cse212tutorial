@@ -21,10 +21,10 @@ Any problem that requires a sorted heirchy could consider using a binary tree. B
 ![Huffman Code(https://th.bing.com/th/id/R.b44993ee9afd517675298f5e01461662?rik=sQSObPQEiZcFzw&riu=http%3a%2f%2fi.stack.imgur.com%2f1fEJE.png&ehk=pzt1wIyP22t8MJoAS2KWuT9U55Y1TLDCRWZI%2fuRqyzk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1))](huffmanCode.png)
 
 ## How Binary Trees are used in Python
-Binary trees are created with a binary search tree parent class, and a child node class. To see an example of one, click ![here](Tree.py). Binary Trees can also be directly imported as a library using "pip install binarytree" in your terminal. This tutorial won't use this, but if you would like to use it, check out this ![site](https://www.geeksforgeeks.org/binarytree-module-in-python/).
+Binary trees are created with a binary search tree parent class, and a child node class. To see an example of one, click ![here](Tree.py). Binary Trees can also be directly imported as a library using "pip install binarytree" in your terminal. This tutorial won't use this, but if you would like to use it, check out this [site](https://www.geeksforgeeks.org/binarytree-module-in-python/).
 
 ## Common errors in Binary Trees
-Binary trees can be traversed in multiple ways. It can be easy to get confused and not traverse in the proper way. Learn the following methods of traversal at this ![site](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) to improve your understanding of them. 
+Binary trees can be traversed in multiple ways. It can be easy to get confused and not traverse in the proper way. Learn the following methods of traversal at this [site](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) to improve your understanding of them. 
 
 
 # Diagrams
