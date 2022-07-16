@@ -9,7 +9,7 @@ A set is a data structure that allows you to save multiple items as a variable. 
 
 
 ## Purpose of a Set
-Sets are used to store items you do not want duplicates of, this can be useful when you are developing a variable that should never allow duplicates. Sets are faster than list, but are unordered. See the Code example to view all of the build in
+Sets are used to store items you do not want duplicates of, this can be useful when you are developing a variable that should never allow duplicates. Sets are faster than list, but are unordered. See the Code example to view all of the built in
 in functions that can be used with sets. 
 ![Code example](SetIntro.py)
 
