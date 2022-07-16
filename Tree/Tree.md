@@ -60,9 +60,10 @@ Breadth first search checks the nodes closest to the root node first from left t
 
 # Binary Tree Example Problem
 
-![Code Solution](Binary Search TreeExample.py)
+Jeff needs to compare simple binary trees that his company has given him. Create a function that uses recursion to compare 2 binary trees to determine if they have the same structure and values. ![Code Solution](TreeExample.py)
 
 
 # Binary Tree Problem for you to solve
-Use the [Tree.py](Tree.py) file and implement your solution.
-![Code Solution](Binary Search TreeProblem.py)
+Joe needs to look at two trees and see if that have matching values, but doesn't care if the trees have different structures. Create a function that checks if 2 trees have the same values. Don't look at the solution until you finish, but use the following code as your tree and then use the test cases when you are done.
+
+![Code Solution](TreeProblem.py)

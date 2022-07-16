@@ -40,7 +40,6 @@ class BinarySearchTree:
             elif data > node.data:
                 return self.contains(data,node.right)
         return False
-            
 
     def __iter__(self): # Traverses forward through in order traversal
         yield from self._traverse_forward(self.root)  
@@ -68,10 +67,11 @@ class BinarySearchTree:
         else:
             return self._get_height(self.root) 
 
+
+   
     def _get_height(self, node):
       
         if node is None:
             return 0  
         else:
             return max(self._get_height(node.left),self._get_height(node.right)) + 1
-
