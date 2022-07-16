@@ -5,7 +5,7 @@
 - [Binary Tree Problem for you to solve](#Binary-Tree-Problem-for-you-to-solve)
 
 ## What is a Binary Tree
-A Binary Tree is a collections of nodes where each parent node has zero, one, or two children. A balanced binary tree with two children have the greater child on the right and the lesser child on the left. For example, a tree with a parent node of 10 would have a child of 2 on the left and a child of 11 on the right. Check out the [Diagrams](#Diagrams) for a visual.
+A Binary Tree is a collections of nodes where each parent node has zero, one, or two children. A balanced binary tree with two children have the greater child on the right and the lesser child on the left. For example, a tree with a parent node of 10 would have a child of 2 on the left and a child of 11 on the right. Check out the [Diagrams](#Diagrams) for a visual. Binary trees are commonly traversed through depth first search or breadth first search.
 
 - The Root Node is the node at the top of the tree
 - The Parent Node is a node with children nodes
@@ -14,13 +14,14 @@ A Binary Tree is a collections of nodes where each parent node has zero, one, or
  ![Code example of a Binary Search Tree](Tree.py)
 
 ## Purpose of a Binary Tree
-
+Binary Trees are great way to store data in a hierchy. Binary Trees are often used for sorting, data compression, and other purposes. 
 
 ![Code example](TreeIntroduction.py)
 
 
 ## Problems that can be solved with a Binary Tree
-
+Any problem that requires a sorted heirchy could consider using a binary tree. Binary Tree is used in Huffman code, which is a compression algorithem that creates lossless compression. Huffman code uses a binary tree with routes to different letters and symbols to save space by looking for patterns and compressing them. If you would like to learn more about Huffman code check out this website ![here](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/).
+![Huffman Code(https://th.bing.com/th/id/R.b44993ee9afd517675298f5e01461662?rik=sQSObPQEiZcFzw&riu=http%3a%2f%2fi.stack.imgur.com%2f1fEJE.png&ehk=pzt1wIyP22t8MJoAS2KWuT9U55Y1TLDCRWZI%2fuRqyzk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1))](huffmanCode.jpg)
 
 ## How Binary Trees are used in Python
 
@@ -30,7 +31,7 @@ A Binary Tree is a collections of nodes where each parent node has zero, one, or
 
 # Diagrams
 
-## Basic Binary Search tree
+### Basic Binary Search tree
 Root Node: 7
 
 Parent-child node relationships: 
@@ -50,6 +51,8 @@ Leaf Nodes: 0,2,5,8,10,14(Nodes without Children)
 ![Binary Search Tree Example](Tree.jpg)
 
 ### Binary Tree Common Search methods
+
+Breadth first search checks the nodes closest to the root node first from left to right. Depth First Search searches for values starting at the root moving down each child as deep as possible from left to right. 
 
 ![Breadth First Search and Depth First Search(https://i.imgur.com/bfitrJw.png)](tree2.png)
 
