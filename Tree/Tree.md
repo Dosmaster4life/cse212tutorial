@@ -11,7 +11,7 @@ A Binary Tree is a collections of nodes where each parent node has zero, one, or
 - The Parent Node is a node with children nodes
 - The Child Node is a node with a parent
 - The Leaf Node is a node without any children nodes
- ![Code example of a Binary Search Tree](Tree.py)
+ ![Code example of a BinaryTree](Tree.py)
 
 ## Purpose of a Binary Tree
 Binary Trees are great way to store data in a hierchy. Binary Trees are often used for sorting, data compression, and other purposes. 
@@ -20,13 +20,14 @@ Binary Trees are great way to store data in a hierchy. Binary Trees are often us
 
 
 ## Problems that can be solved with a Binary Tree
-Any problem that requires a sorted heirchy could consider using a binary tree. Binary Tree is used in Huffman code, which is a compression algorithem that creates lossless compression. Huffman code uses a binary tree with routes to different letters and symbols to save space by looking for patterns and compressing them. If you would like to learn more about Huffman code check out this website ![here](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/).
+Any problem that requires a sorted heirchy could consider using a binary tree. Binary Tree is used in Huffman code, which is a compression algorithem that creates lossless compression. Huffman code uses a binary tree with routes to different letters and symbols to save space by looking for patterns and compressing them. If you would like to learn more about Huffman code, check out this website ![here](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/).
 ![Huffman Code(https://th.bing.com/th/id/R.b44993ee9afd517675298f5e01461662?rik=sQSObPQEiZcFzw&riu=http%3a%2f%2fi.stack.imgur.com%2f1fEJE.png&ehk=pzt1wIyP22t8MJoAS2KWuT9U55Y1TLDCRWZI%2fuRqyzk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1))](huffmanCode.png)
 
 ## How Binary Trees are used in Python
-
+Binary trees are created with a binary search tree parent class, and a child node class. To see an example of one, click ![here](Tree.py). Binary Trees can also be directly imported as a library using "pip install binarytree" in your terminal. This tutorial won't use this, but if you would like to use it, check out this ![site](https://www.geeksforgeeks.org/binarytree-module-in-python/).
 
 ## Common errors in Binary Trees
+Binary trees can be traversed in multiple ways. It can be easy to get confused and not traverse in the proper way. Learn the following methods of traversal at this ![site](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) to improve your understanding of them. 
 
 
 # Diagrams
